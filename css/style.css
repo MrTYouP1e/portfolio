@@ -1,0 +1,432 @@
+body {
+	font-family:"Montserrat";
+}
+
+* {
+/*	border:2px solid red;*/
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+
+.wholepagecontainer{
+	width: 1440px;
+	margin:0 auto;
+}
+
+.section{
+	max-width: 1440px;
+	height: 755px;
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	margin: 0 auto;
+}
+
+.card1, .card12 {
+	width: 271px;
+	height: 293px;
+	padding: 20px;
+	/*border: 10px solid skyblue;*/
+	border-radius: 30px; position: relative;
+	text-align: center;
+	box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card12:after {
+	content: "Buгiдно!";
+	display: flex;
+	justify-content: center; align-items: center;
+	width: 100px;
+	height: 100px; background: orange;
+	border-radius: 100%; position: absolute;
+	left: 200px; top: -50px;
+	color:white;
+}
+
+.main_header{
+	width: 1280px;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	float: right;
+}
+
+.order{
+	width: 150px;
+	height: 50px;
+	color:orange;
+	border-radius-right:20%; 
+	border-radius-left:20%; 
+}
+
+.searchpoint{
+	display: flex;
+	justify-content: space-between;
+	width: 838px;
+	height: 30px;
+	margin-right: 90px;
+}
+
+.logoh{
+	width: 100px;
+	height: 50px;
+}
+
+.main_section{
+	height: 800px;
+}
+
+.card{
+	width: 1000px;
+	display: flex;
+}
+
+.maininmain{
+	height: 400px;
+	width: 1435px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.maintain{
+	font-size: 40px;
+	font-weight: 700;
+	color:white;
+	margin-left: 20px;
+	position: relative;
+}
+
+.hcj{
+	color:white;
+	margin-left: 20px;
+}
+
+.button{
+	color:white;
+	width: 190px;
+	height: 50px;
+	background: #64E2CD;
+	border-radius: 50px;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+	outline: 10px solid #64E2CD80;
+	display: flex;
+	margin-left: 35px;
+	margin-top: 120px;
+	text-align:center;
+	align-self: center;
+}
+
+.hh{
+	color:white;
+}
+
+.aboutme{
+	color:white;
+	font-weight: bolder;
+	text-align:center;
+}
+
+.scale{
+	width: 231px;
+	height: 231px;
+	border-radius:50%;
+	outline: 10px solid lightblue;
+	margin-left:10px;
+	margin-top: 20px;
+	background: white;
+	text-align: center;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	top:310px;
+	right:950px;
+	position: absolute;
+}
+
+.total span:nth-child(1),.total span:nth-child(3){
+	color:orange;
+	font-size: 30px;
+}
+
+.order{
+	width: 160px;
+	height: 42px;
+	border-radius: 50px;
+	color:orange;
+	background:white;
+	text-align:center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.pp{
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.total{
+	font-size: 30px;
+	color:blue;
+}
+
+.section3{
+	max-width: 1440px;
+	height: 1000px;
+	background-image: url(../img/bac3.jpg);
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: space-around;
+	flex-direction: row;
+}
+
+.rectangle{
+	width: 565px;
+	height: 278px;
+	background: white;
+	border-radius:10px;
+}
+
+.title_4{
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.recomendation{
+	width: 351px;
+	height: 212px;
+	display: flex;
+	align-items: space-around;
+	flex-direction: column;
+	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.7);
+	align-self: flex-end;
+}
+
+.title{
+	font-size: 30px;
+	color:orange;
+	font-weight: bolder;
+}
+
+.txt222{
+	color:#636363;
+}
+
+.section4{
+	display: flex;
+	flex-direction:column;
+	align-items: space-between;
+
+}
+
+.vid{
+	width: 496px;
+	height: 382px;
+}
+
+.cont_carder{
+	display: flex;
+	width:1200px;
+	margin: 0 auto;
+	justify-content: space-around;
+	margin-bottom:265px;
+}
+
+.footer{
+	width: 1440px;
+	height: 300px;
+	background: #2F80ED;
+}
+
+.line_txt{
+	width: 1440px;
+	height: 77px;
+	background: #185FBF;
+	color:white;
+	display: flex;
+	align-self: center;
+}
+
+.time{
+	color: #2F80ED;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+.page{
+	font-size: 16px;
+	color: #2F80ED;
+}
+
+.button_card{
+	display: flex;
+	width: 192px;
+	height: 50px;
+	margin-top: 30px;
+	background: #52D1BC;
+	border-radius: 50px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+
+.page{
+	margin-top: 20px;
+	line-height:25px;
+}
+
+.sectblock{
+	display: flex;
+	justify-content: space-between;
+	width: 1440px;
+	height: 280px;
+}
+
+.section2{
+	background-image: url(../img/2back.png);
+	background-repeat: no-repeat;
+	max-width:1440px;
+	height: 600px;
+	position: relative;
+}
+
+.block_learning{
+	height: 50px;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.bl1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 600px;
+	height: 50px;
+}
+
+.subtitle_sect2{
+	font-size:30px;
+	font-weight: 700;
+	margin-top: 45px;
+}
+
+.holder_sect2{
+	width: 800px;
+	height: 800px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-left: 130px;
+}
+
+.row1{
+	width: 510px;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.row2{
+	width: 510px;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.microproject{
+	width: 200px;
+}
+
+.LOgo_sch{
+	float: right;
+}
+
+.subtitle{
+	font-weight:800;
+	font-size: 14px;
+	color:orange;
+}
+
+.LOgo_sch{
+	position: absolute;
+	top:74px;
+	right: 131px;
+}
+
+.title_photos{
+	font-size: 30px;
+	font-weight: 700;
+	margin-top:70px;
+	margin-bottom:90px;
+	margin-left: 400px;
+}
+
+.title_cards{
+	font-weight: 700;
+	font-size: 30px;
+	margin-top:70px;
+	margin-bottom:90px;
+	margin-left: 400px;
+}
+
+.title_4{
+	margin-top:70px;
+	margin-bottom:90px;
+	margin-left: 100px;
+}
+
+.section3{
+	flex-wrap: wrap;
+	justify-content: space-between;
+	display: flex;
+}
+
+.sectblock{
+	width: 1200px;
+}
+
+.title_sect_3{
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.div_row1{
+	width: 1200px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left:120px;
+}
+
+.town{
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+}
+
+.cont_for_works{
+	width: 1400px;
+	display: flex;
+	align-items:space-between;
+	flex-wrap: wrap;
+}
+
+.order{
+	margin-left: 100px;
+}

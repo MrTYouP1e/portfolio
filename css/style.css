@@ -211,8 +211,11 @@ body {
 	display: flex;
 	align-items: space-around;
 	flex-direction: column;
+	justify-content: space-around;
 	box-shadow: 0px 30px 100px rgba(47, 55, 237, 0.7);
 	align-self: flex-end;
+	border-radius:10px;
+	padding:20px;
 }
 
 .title{
@@ -258,6 +261,7 @@ body {
 	color:white;
 	display: flex;
 	align-self: center;
+	justify-content: space-around;
 }
 
 .time{
@@ -429,4 +433,21 @@ body {
 
 .order{
 	margin-left: 100px;
+}
+
+.block_with_info{
+	width: 250px;
+	height: 200px;
+}
+
+.title_for_info_block{
+	font-weight: bolder;
+	color:lightblue;
+}
+
+.info_important{
+	width: 1440px;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
 }
